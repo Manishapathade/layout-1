@@ -1,0 +1,156 @@
+.heroimg{
+    padding: 60px 0 110px 0;
+    background-color: #fcdb00;
+}
+
+.logo{
+    display: inline-block;
+    width: 120px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar > li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar > li > a:link,
+.navbar > li > a:visited{
+    padding: 0 18px;
+    color: #010101;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+    height: 51.3px;
+    display: inline-block;
+    line-height: 51.3px;
+}
+
+.iPad{
+    margin-left: 60px;
+}
+
+.brandIcons > li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.brandIcons > li >a:link,
+.brandIcons > li >a:visited{
+    height: 40px;
+    display: inline-block;
+    color: #010101;
+    
+}
+
+.brandIcons li a i{
+    transition: all 0.7s ease-in-out;
+}
+
+.brandIcons > li >a:hover i,
+.brandIcons > li >a:focus i,
+.brandIcons > li >a:active i{
+    transform: scale(1.2) rotate(180deg);
+}
+
+.brandIcons li i{
+    font-size: 40px;
+}
+
+.inspiration{
+    margin-top: 70px;
+}
+.features{
+    padding: 120px 0 80px;
+}
+
+.features .sec-heding{
+    margin-bottom: 90px;
+}
+
+.thumbIcon{
+    text-align: center;
+    font-size: 3em;
+}
+
+.thumbnail{
+    margin-bottom: 85px;
+}
+
+.thumbInfo h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #010101;
+    margin-bottom: 15px;
+}
+
+.thumbInfo p{
+    font-size: 16px;
+    color: #898989;
+}
+
+.footer{
+    padding: 95px 0 140px;
+    background-color: #010101;
+}
+
+.footer .pri-heding{
+    font-size: 32px;
+    color: #fcdb00;
+}
+
+.footer p{
+    font-size: 20px;
+    color: #898989;
+    margin-bottom: 40px;
+}
+
+.form-group{
+    margin-bottom: 80px;
+}
+
+.form-control{
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: calc(100% - 150px);
+    padding: 0 25px;
+}
+
+.submitbtn{
+    width: 125px;
+    height: 50px;
+    background-color: #fcdb00;
+    color: #010101;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 2px solid #fcdb00;
+    transition: all 0.7s ease-in-out;
+    margin-left: 20px;
+}
+
+.submitbtn:hover,
+.submitbtn:focus,
+.submitbtn:active{
+    color: #fcdb00;
+    background-color: #010101;
+}
+
+.footer .brandIcons>li>a:link,
+.footer .brandIcons>li>a:visited{
+    height: 40px;
+    display: inline-block;
+    color:#fcdb00;
+    
+}
